@@ -1,12 +1,12 @@
 # css-reset
 
-> Last Version: 1.0.0
+> Latest Version: 1.0.0
 
 [![download][download-image]][download-url]
 [![license][license-image]][license-url]
 [![changelog][changelog-image]][changelog-url]
 
-The code frome **css-reset** is mostly based on very popular [Meyer's](https://meyerweb.com/eric/tools/css/reset/) reset CSS code but there are some other reset codes also added. You can feel free to use it in your own projects
+The code from **css-reset** is mostly based on very popular [Meyer's](https://meyerweb.com/eric/tools/css/reset/) reset CSS code but there are some other reset codes also added. You can feel free to use it in your own projects
 
 &nbsp;
 ## Installation
