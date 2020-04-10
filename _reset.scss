@@ -1,0 +1,109 @@
+:root
+{
+    font-size: 16px;
+}
+
+
+
+*, *:after, *:before
+{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    line-height: 1;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+body
+{
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+input[type=password]:not(:placeholder-shown)
+{
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: "Verdana", sans-serif;
+}
+
+
+
+ol, ul
+{
+	list-style: none;
+}
+
+
+
+blockquote, q
+{
+	quotes: none;
+}
+
+
+
+blockquote:before, blockquote:after,
+q:before, q:after
+{
+	content: '';
+	content: none;
+}
+
+
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+@media (prefers-reduced-motion: reduce)
+{
+    *
+    {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
